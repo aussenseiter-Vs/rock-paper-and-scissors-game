@@ -1,0 +1,87 @@
+body {
+    font-family: Arial;
+    background-color: #000;
+    color: #fff;
+}
+#flexContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.moveBtnFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 30px 0;
+}
+.title {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.moveBtnFlex button {
+    background-color: #000;
+    width: 135px;
+    height: 135px;
+    padding: 10px;
+    cursor: pointer;
+    border: white 2px solid;
+    border-radius: 50%;
+}
+.moveBtnFlex button:hover {
+    background-color: #fff;
+    color: black;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+.moveBtnFlex button:active {
+    background-color: #000;
+    color: white;
+    opacity: 0.5;
+    transition: 0.1s;
+}
+.moveBtnFlex button img {
+    width: 60%;
+}
+.resultContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+}
+.resultContainer img {
+    width: 100%;
+}
+.score{
+    font-size: 1.5em;
+    margin-bottom: 35px;
+}
+.btn{
+    background-color: gainsboro;
+    color: black;
+    border: 2px solid white;
+    padding: 20px 30px;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.btn:hover {
+    background-color: #fff;
+    color: black;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+.btn:active {
+    background-color: #000;
+    color: white;
+    opacity: 0.5;
+    transition: 0.1s;
+}
+.result {
+    font-size: 1.2em;
+}
